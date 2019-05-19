@@ -1,0 +1,158 @@
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.wrapper .inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header { 
+    width:100%;
+    background:url(images/fairies.gif) repeat-x;
+    height:90px;
+ }
+
+nav{
+    width:100%;
+    background-color: #ffdccd;
+    height: 41px;
+}
+
+.inner{
+    width: 1000px;
+    height: 41px;
+    margin: auto;
+}
+
+.dropbtn {
+    position: relative;
+    line-height: 3px;
+    text-align: center;
+    width: 105px;
+    height: 41px;
+    background-color:#ffdccd;
+
+    padding: 16px;
+    font-family: 'latolight', helvetica, arial, sans-serif;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.dropbtn a{
+    text-decoration: none;
+}
+.navd {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+
+.dropdown-content a {
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    color: black;;
+}
+
+.dropdown-content a:hover {color: black;}
+
+.navd:hover .dropdown-content {
+    display: block;
+}
+
+.navd:hover .dropbtn {
+    background-color:#ffdccd;
+}
+
+
+
+a { 
+    color:white; 
+    text-decoration:none;}
+a:hover { 
+    color:#cd0200;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'latolight',helvetica,arial,verdana,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #5c5260;
+
+}
+.main{
+  
+    
+    height:800px;
+    float:right;
+   
+}
+
+ .page-title {
+    width: 710px;
+    position: relative;
+    width: 1000px;
+    height: 110px;
+    margin: -110px auto 0;
+    background: white;
+ }
+ .page-title h2 {
+    font-size: 30px;
+    line-height: 34px;
+    position: relative;
+    top: 50%;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'latolight',helvetica,arial,verdana,sans-serif;
+}
+
+ p.date {
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+body{
+    background:url(images/timg.jpg)
+}
+#image{
+    float:right;
+}
+
+#left {
+	border:				thin solid#c4e1e5;
+	width:				200px;
+	background-image:	url(images/捕获.PNG);
+	background-repeat:	repeat-x;
+	text-align:			center;
+	padding-right:		20px;
+	padding-bottom:		20px;
+    padding-left:		20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:10px;
+	float:				left;
+}
+.bigbox{
+    width:100%;
+    height:800px;
+}
+.footer {
+    background:url(images/fairies.gif) repeat-x;
+    height: 50px;
+    width:100%;
+
+}

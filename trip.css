@@ -1,0 +1,137 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.wrapper .inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header { 
+    width:100%;
+    background:url(images/fairies.gif) repeat-x;
+    height:90px;
+ }
+
+nav{
+    width:100%;
+    background-color: #ffdccd;
+    height: 41px;
+}
+
+.inner{
+    width: 1000px;
+    height: 41px;
+    margin: auto;
+}
+
+.dropbtn {
+    position: relative;
+    line-height: 3px;
+    text-align: center;
+    width: 105px;
+    height: 41px;
+    background-color:#ffdccd;
+
+    padding: 16px;
+    font-family: 'latolight', helvetica, arial, sans-serif;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.dropbtn a{
+    text-decoration: none;
+}
+.navd {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+
+.dropdown-content a {
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    color: black;;
+}
+
+.dropdown-content a:hover {color: black;}
+
+.navd:hover .dropdown-content {
+    display: block;
+}
+
+.navd:hover .dropbtn {
+    background-color:#ffdccd;
+}
+
+
+
+a { 
+    color:white; 
+    text-decoration:none;}
+a:hover { 
+    color:#cd0200;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'latolight',helvetica,arial,verdana,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #5c5260;
+
+}
+body{
+    background:url(images/timg.jpg)
+}
+.footer {
+    background:url(images/fairies.gif) repeat-x;
+    height: 50px;
+    width:100%;
+
+}
+.index{
+    border:thin solid#c4e1e5;
+    font-family:"SimSun";
+    width:				100%;
+    background-image:	url(images/f04db958d128c5b0684ddc0eaf9eda9d.jpg);
+    text-align:			center;
+	padding-right:		20px;
+	padding-bottom:		20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:10px;
+
+
+}
+.tripbox{
+    border:thin solid#c4e1e5;
+    width:				100%;
+    background-image:	url(images/f04db958d128c5b0684ddc0eaf9eda9d.jpg);
+    text-align:			center;
+	padding-right:		20px;
+	padding-bottom:		20px;
+    font-family:"SimSun";
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:10px;
+
+}
+
+img{
+    float:left;
+   
+}
+.img1
+{
+    float:right;
+}
