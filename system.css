@@ -146,6 +146,7 @@ body{
 img{
 	float:left;
 	margin-top:30px;
+	padding-top:30px;
 }
 .bigbox{
     width:100%;
