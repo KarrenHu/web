@@ -134,7 +134,7 @@ body{
 	width:				100%%;
 	background-image:	url(images/捕获.PNG);
 	background-repeat:	repeat-x;
-	text-align:			center;
+	text-align: center;
 	padding-right:		20px;
 	padding-bottom:		20px;
         padding-left:		20px;
@@ -146,7 +146,7 @@ body{
 .bigbox{
     width:100%;
     height:800px;
-    background:url(images/f04db958d128c5b0684ddc0eaf9eda9d.jpg);
+    background-image:url(images/f04db958d128c5b0684ddc0eaf9eda9d.jpg);
 
 }
 .footer {
