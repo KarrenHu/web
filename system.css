@@ -130,8 +130,8 @@ body{
 }
 
 #left {
-	border:				thin solid#c4e1e5;
-	width:				100%%;
+	border:	thin solid#c4e1e5;
+	width:	100%%;
 	background-image:	url(images/捕获.PNG);
 	background-repeat:	repeat-x;
 	text-align: center;
@@ -142,6 +142,9 @@ body{
         margin-right:20px;
         margin-top:10px;
 	
+}
+img{
+	float:left;
 }
 .bigbox{
     width:100%;
